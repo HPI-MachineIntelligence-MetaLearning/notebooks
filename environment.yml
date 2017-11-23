@@ -1,8 +1,11 @@
 name: meta-notebooks
+channels:
+- menpo
 dependencies:
-- pip=9.0.1=py36_1
-- python=3.6.2=0
+- opencv3=3.1.0
+- python=3.5
 - pip:
   - chainer==3.0.0
   - jupyter==1.0.0
   - matplotlib==2.1.0
+  - chainercv

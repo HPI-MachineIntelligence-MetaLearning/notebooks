@@ -105,3 +105,6 @@ venv.bak/
 
 # chainer output
 result/
+test/
+train/
+*.tar
