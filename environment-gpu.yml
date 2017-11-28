@@ -1,0 +1,12 @@
+name: meta-notebooks-gpu
+channels:
+- menpo
+dependencies:
+- opencv3=3.1.0
+- python=3.5
+- pip:
+  - chainer==3.0.0
+  - jupyter==1.0.0
+  - matplotlib==2.1.0
+  - chainercv
+  - cupy==2.1.0
